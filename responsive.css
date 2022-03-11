@@ -1,0 +1,42 @@
+@media all and (max-width:900px){
+  /*メイン*/
+  .item{
+    width: 48%;
+  }
+  .viewmore{
+    margin-bottom: 20px;
+  }
+
+  /*フッター*/
+  #footer{
+    flex-direction: column;
+    display: unset;
+  }
+  footer p{
+    padding-top: 10px;
+  }
+
+  /*---------------Products詳細-----------------*/
+  .item-wrap{
+    flex-direction: column;
+  }
+  .item-wrap img{
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .detaile{
+    width: 100%;
+  }
+  dt,dd{
+    font-size: 12px;
+  }
+
+  /*----------------Company-------------------*/
+  .company-info{
+    width: 100%;
+  }
+  .address{
+    display: inline;
+  }
+
+}
